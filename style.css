@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
-    margin-top: 0px;
-    text-align:center;
-    background-color: black;
-}
 
 #bad_jokes{
     text-align:center;
@@ -21,22 +16,20 @@ body{
     text-align:center;
     color:black;
 }
-nav {
-    color:white;
-    background-color: grey;
-    text-align: left;
-}
-
-a {
-    color:white;
-    text-decoration: none;
-}
 
 .mainformatting {
-    background: linear-gradient(#f7C319, #FDFBCF);
+    background: linear-gradient(#f9e4bc, #f8f8f7);
 }
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+#navigate {
+    text-align: right;
+    color:black
+}
+.heading {
+    text-align: left;
+
 }
