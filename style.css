@@ -1,4 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
+    margin-top: 0px;
     text-align:center;
     background-color: black;
 }
@@ -10,6 +16,8 @@ header {
 }
 
 body{
+    margin: 0px;
+    margin-top: 0px;
     text-align:center;
     color:black;
 }
@@ -22,4 +30,13 @@ nav {
 a {
     color:white;
     text-decoration: none;
+}
+
+.mainformatting {
+    background: linear-gradient(#f7C319, #FDFBCF);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
