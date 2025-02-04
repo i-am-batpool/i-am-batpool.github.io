@@ -4,32 +4,59 @@
     box-sizing: border-box;
 }
 
-#bad_jokes{
+#botbar{
     text-align:center;
     color:white;
-    background-color: black;
+    background: linear-gradient(to right, #89C0A6, #6FA5C7);
+    position: fixed;
+    bottom: 0;
+    width:100%;
 }
 
-body{
-    margin: 0px;
-    margin-top: 0px;
-    text-align:center;
-    color:black;
-}
 
 .mainformatting {
-    background: linear-gradient(#f9e4bc, #f8f8f7);
+    /*background: linear-gradient(to bottom, #F9F9F9, #E3FDFD);*/
+    background: linear-gradient(to top, #B2E3C8, rgba(5, 27, 27, 0));
+    height: 100vh;
 }
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+.mainformatting_mainpage {
+    background: linear-gradient(to right, rgba(137, 192, 166, 0.8), rgba(111, 165, 199, 0.8)), url('metrek.jpeg') center center no-repeat;
+    height: 100vh;
+    background-size: cover;
 }
-#navigate {
-    text-align: right;
-    color:black
-}
+
 .heading {
     text-align: left;
+}
 
+/*Styling for top navbar*/
+#navbar {
+    display: flex;
+    background: linear-gradient(to right, #89C0A6, #6FA5C7);
+    justify-content: space-between;
+}
+#mainicon {
+    margin-top: 0.5vw;
+    margin-bottom: 0.9vw;
+}
+#mainicon a {
+    text-align: left;
+    color: #ffffff;
+    font-size: 2.2vw;
+    text-decoration: none;
+}
+#navigate {
+    margin-top: 1.2vw;
+    margin-bottom: 0.9vw;
+}
+#navigate a{
+    text-align: right;
+    color: #ffffff;
+    font-size:1.3vw;
+    text-decoration: none;
+}
+
+
+#mainpagecont {
+    color: white;
 }
